@@ -1,0 +1,36 @@
+#form{
+    border-left: 5px solid green;
+    border-right: 5px solid green;
+    padding: 20px;
+}
+
+#form input{
+    border: 2px solid green !important;
+}
+
+#logo{
+    font-family: 'Hanalei Fill', cursive;
+    color: green;
+    font-size: 8em;
+}
+
+.secondary{
+    background-color: greenyellow !important;
+}
+
+#nav{
+    background-color: green;
+}
+.btn-xl {
+    font-size: 3em;
+    border-radius: 10px;
+    min-width:6em;
+    min-height: 6em;
+    background-color: green;
+    margin-left: 80px !important;
+}
+
+.btn-primary{
+    background-color: green;
+    border-color: black;
+}

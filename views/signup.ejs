@@ -1,0 +1,19 @@
+<%- include('partials/header.ejs') %>
+<h1 id="logo" style="text-align: center; padding-top: 5%">SIGNUP</h1>
+<div style="height: 40vh" class="row">
+    <div class="d-flex align-items-center justify-content-center" >
+        <form id="form" class="w-50" method="post" action="/signup">
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input placeholder="John Doe" name="username" type="text" class="form-control" id="username" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="InputPassword1" class="form-label">Password</label>
+                <input placeholder="*******" name="password" type="password" class="form-control" id="InputPassword1">
+            </div>
+            <button type="submit" style="background-color: green; color: white; border-radius: 20px; width: 5vw;" class="btn">Signup</button>
+            <button class="btn btn-secondary secondary"><a style="color: black" href="/">Login Instead</a></button>
+        </form>
+    </div>
+</div>
+<%- include('partials/footer.ejs') %>
